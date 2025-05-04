@@ -28,6 +28,7 @@ Watchdog Data = "0x39"
 CPU Type = "6809"
 MO Increment = "0x1"
 Clk Freq (MHz) = 1.000000
+Use IOREQ for I/O  = FALSE
 
 [EAROM Config]
 EAROM Addr_Data = "0x0"
@@ -69,6 +70,30 @@ ROM Type = "2732"
 Options = ""
 
 [RomRegion2]
+Start = "0x0"
+End = "0xFFF"
+Location = "1D"
+FileName = "sinrev1.01"
+Page Reg = "0x0"
+Page Bit 0-7 = 0
+CAT checksum = "0x0"
+9010a signature = "0x0"
+CRC32 = "0x3810D7B8"
+SHA-1 = ""
+CAT checksum 2 = "0x0"
+9010a signature 2 = "0x0"
+Used in Version(s) = "v1"
+EnableAddress = "0xC900"
+DisableAddress = "0xC900"
+EnableData = "0x1"
+DisableData = "0x0"
+Enable Before Test = TRUE
+Disable After Test = TRUE
+Data Signatures = ""
+ROM Type = "2732"
+Options = ""
+
+[RomRegion3]
 Start = "0x1000"
 End = "0x1FFF"
 Location = "1C"
@@ -81,7 +106,7 @@ CRC32 = "0xCAB3185C"
 SHA-1 = "423d1e3b0c07333ec582529bc4d0b7baf591820a"
 CAT checksum 2 = "0x0"
 9010a signature 2 = "0x0"
-Used in Version(s) = "v3,v2"
+Used in Version(s) = "v3,v2,v1"
 EnableAddress = "0xC900"
 DisableAddress = "0xC900"
 EnableData = "0x1"
@@ -92,7 +117,7 @@ Data Signatures = "CAFF,3A45,07PP,0A65,04H8,536H,U410,A803"
 ROM Type = "2732"
 Options = ""
 
-[RomRegion3]
+[RomRegion4]
 Start = "0x2000"
 End = "0x2FFF"
 Location = "1A"
@@ -116,7 +141,31 @@ Data Signatures = "P3F4,C622,H9F0,AFA8,136A,F349,A2U8,1C90"
 ROM Type = "2732"
 Options = ""
 
-[RomRegion4]
+[RomRegion5]
+Start = "0x2000"
+End = "0x2FFF"
+Location = "1A"
+FileName = "sinrev1.03"
+Page Reg = "0x0"
+Page Bit 0-7 = 0
+CAT checksum = "0x0"
+9010a signature = "0x0"
+CRC32 = "0x7C984CA9"
+SHA-1 = ""
+CAT checksum 2 = "0x0"
+9010a signature 2 = "0x0"
+Used in Version(s) = "v1"
+EnableAddress = "0xC900"
+DisableAddress = "0xC900"
+EnableData = "0x1"
+DisableData = "0x0"
+Enable Before Test = TRUE
+Disable After Test = TRUE
+Data Signatures = ""
+ROM Type = "2732"
+Options = ""
+
+[RomRegion6]
 Start = "0x3000"
 End = "0x3FFF"
 Location = "2D"
@@ -140,7 +189,31 @@ Data Signatures = "4CA0,849U,9030,0U83,A3CF,546H,0452,2HP7"
 ROM Type = "2732"
 Options = ""
 
-[RomRegion5]
+[RomRegion7]
+Start = "0x3000"
+End = "0x3FFF"
+Location = "2D"
+FileName = "sinrev1.04"
+Page Reg = "0x0"
+Page Bit 0-7 = 0
+CAT checksum = "0x0"
+9010a signature = "0x0"
+CRC32 = "0xCC6C4F24"
+SHA-1 = ""
+CAT checksum 2 = "0x0"
+9010a signature 2 = "0x0"
+Used in Version(s) = "v1"
+EnableAddress = "0xC900"
+DisableAddress = "0xC900"
+EnableData = "0x1"
+DisableData = "0x0"
+Enable Before Test = TRUE
+Disable After Test = TRUE
+Data Signatures = ""
+ROM Type = "2732"
+Options = ""
+
+[RomRegion8]
 Start = "0x4000"
 End = "0x4FFF"
 Location = "2C"
@@ -164,7 +237,31 @@ Data Signatures = "0HUC,5804,0F07,CH8F,HAC4,C671,3352,U181"
 ROM Type = "2732"
 Options = ""
 
-[RomRegion6]
+[RomRegion9]
+Start = "0x4000"
+End = "0x4FFF"
+Location = "2C"
+FileName = "sinrev1.05"
+Page Reg = "0x0"
+Page Bit 0-7 = 0
+CAT checksum = "0x0"
+9010a signature = "0x0"
+CRC32 = "0x12285BFE"
+SHA-1 = ""
+CAT checksum 2 = "0x0"
+9010a signature 2 = "0x0"
+Used in Version(s) = "v1"
+EnableAddress = "0xC900"
+DisableAddress = "0xC900"
+EnableData = "0x1"
+DisableData = "0x0"
+Enable Before Test = TRUE
+Disable After Test = TRUE
+Data Signatures = ""
+ROM Type = "2732"
+Options = ""
+
+[RomRegion10]
 Start = "0x5000"
 End = "0x5FFF"
 Location = "2A"
@@ -188,7 +285,31 @@ Data Signatures = "3629,29U7,0HP9,69PF,20UC,09A0,8C4H,5FUU"
 ROM Type = "2732"
 Options = ""
 
-[RomRegion7]
+[RomRegion11]
+Start = "0x5000"
+End = "0x5FFF"
+Location = "2A"
+FileName = "sinrev1.06"
+Page Reg = "0x0"
+Page Bit 0-7 = 0
+CAT checksum = "0x0"
+9010a signature = "0x0"
+CRC32 = "0x7A675F35"
+SHA-1 = ""
+CAT checksum 2 = "0x0"
+9010a signature 2 = "0x0"
+Used in Version(s) = "v1"
+EnableAddress = "0xC900"
+DisableAddress = "0xC900"
+EnableData = "0x1"
+DisableData = "0x0"
+Enable Before Test = TRUE
+Disable After Test = TRUE
+Data Signatures = ""
+ROM Type = "2732"
+Options = ""
+
+[RomRegion12]
 Start = "0x6000"
 End = "0x6FFF"
 Location = "3D"
@@ -212,7 +333,31 @@ Data Signatures = "5FF6,C129,52PH,77P8,2F25,FF1F,99A0,2U24"
 ROM Type = "2732"
 Options = ""
 
-[RomRegion8]
+[RomRegion13]
+Start = "0x6000"
+End = "0x6FFF"
+Location = "3D"
+FileName = "sinrev1.07"
+Page Reg = "0x0"
+Page Bit 0-7 = 0
+CAT checksum = "0x0"
+9010a signature = "0x0"
+CRC32 = "0xB0463243"
+SHA-1 = ""
+CAT checksum 2 = "0x0"
+9010a signature 2 = "0x0"
+Used in Version(s) = "v1"
+EnableAddress = "0xC900"
+DisableAddress = "0xC900"
+EnableData = "0x1"
+DisableData = "0x0"
+Enable Before Test = TRUE
+Disable After Test = TRUE
+Data Signatures = ""
+ROM Type = "2732"
+Options = ""
+
+[RomRegion14]
 Start = "0x7000"
 End = "0x7FFF"
 Location = "3C"
@@ -236,7 +381,7 @@ Data Signatures = "H2AF,8578,80P0,193U,97C7,07P8,7597,1906"
 ROM Type = "2732"
 Options = ""
 
-[RomRegion9]
+[RomRegion15]
 Start = "0x7000"
 End = "0x7FFF"
 Location = "3C"
@@ -260,7 +405,31 @@ Data Signatures = "2HU0,2UC3,2A2C,C3U4,3H7F,AH23,2000,P65A"
 ROM Type = "2732"
 Options = ""
 
-[RomRegion10]
+[RomRegion16]
+Start = "0x7000"
+End = "0x7FFF"
+Location = "3C"
+FileName = "sinrev1.08"
+Page Reg = "0x0"
+Page Bit 0-7 = 0
+CAT checksum = "0x0"
+9010a signature = "0x0"
+CRC32 = "0x909040D4"
+SHA-1 = ""
+CAT checksum 2 = "0x0"
+9010a signature 2 = "0x0"
+Used in Version(s) = "v1"
+EnableAddress = "0xC900"
+DisableAddress = "0xC900"
+EnableData = "0x1"
+DisableData = "0x0"
+Enable Before Test = TRUE
+Disable After Test = TRUE
+Data Signatures = ""
+ROM Type = "2732"
+Options = ""
+
+[RomRegion17]
 Start = "0x8000"
 End = "0x8FFF"
 Location = "3A"
@@ -284,7 +453,31 @@ Data Signatures = "0A57,792A,18HA,A3U3,CH8A,A9UC,H943,161H"
 ROM Type = "2732"
 Options = ""
 
-[RomRegion11]
+[RomRegion18]
+Start = "0x8000"
+End = "0x8FFF"
+Location = "3A"
+FileName = "sinrev1.09"
+Page Reg = "0x0"
+Page Bit 0-7 = 0
+CAT checksum = "0x0"
+9010a signature = "0x0"
+CRC32 = "0xCC949810"
+SHA-1 = ""
+CAT checksum 2 = "0x0"
+9010a signature 2 = "0x0"
+Used in Version(s) = "v1"
+EnableAddress = "0xC900"
+DisableAddress = "0xC900"
+EnableData = "0x1"
+DisableData = "0x0"
+Enable Before Test = TRUE
+Disable After Test = TRUE
+Data Signatures = ""
+ROM Type = "2732"
+Options = ""
+
+[RomRegion19]
 Start = "0xE000"
 End = "0xEFFF"
 Location = "4C"
@@ -308,7 +501,31 @@ Data Signatures = "FF0H,20AP,3863,HH01,057A,FC76,6C8F,CCA5"
 ROM Type = "2732"
 Options = ""
 
-[RomRegion12]
+[RomRegion20]
+Start = "0xE000"
+End = "0xEFFF"
+Location = "4C"
+FileName = "sinrev1.10"
+Page Reg = "0x0"
+Page Bit 0-7 = 0
+CAT checksum = "0x0"
+9010a signature = "0x0"
+CRC32 = "0xEA87A53F"
+SHA-1 = ""
+CAT checksum 2 = "0x0"
+9010a signature 2 = "0x0"
+Used in Version(s) = "v1"
+EnableAddress = "0xC900"
+DisableAddress = "0xC900"
+EnableData = "0x0"
+DisableData = "0x0"
+Enable Before Test = TRUE
+Disable After Test = TRUE
+Data Signatures = ""
+ROM Type = "2732"
+Options = ""
+
+[RomRegion21]
 Start = "0xF000"
 End = "0xFFFF"
 Location = "4A"
@@ -332,7 +549,7 @@ Data Signatures = "H805,78A5,0108,268C,FU98,31H6,9F62,F8A8"
 ROM Type = "2732"
 Options = ""
 
-[RomRegion13]
+[RomRegion22]
 Start = "0xF000"
 End = "0xFFFF"
 Location = "4A"
@@ -353,6 +570,30 @@ DisableData = "0x0"
 Enable Before Test = TRUE
 Disable After Test = TRUE
 Data Signatures = "HH3C,PH2H,H314,918A,2618,0C14,P4C7,F3U1"
+ROM Type = "2732"
+Options = ""
+
+[RomRegion23]
+Start = "0xF000"
+End = "0xFFFF"
+Location = "4A"
+FileName = "sinrev1.11"
+Page Reg = "0x0"
+Page Bit 0-7 = 0
+CAT checksum = "0x0"
+9010a signature = "0x0"
+CRC32 = "0x88D36E80"
+SHA-1 = ""
+CAT checksum 2 = "0x0"
+9010a signature 2 = "0x0"
+Used in Version(s) = "v1"
+EnableAddress = "0xC900"
+DisableAddress = "0xC900"
+EnableData = "0x1"
+DisableData = "0x0"
+Enable Before Test = TRUE
+Disable After Test = TRUE
+Data Signatures = ""
 ROM Type = "2732"
 Options = ""
 
@@ -522,7 +763,7 @@ ROM Config Notes:
 write x01 to c9000 to enable rom addressing
 v3 is default
 v2 only rom 8 and 11 are different
-v1 not loaded
+v1 only rom 2 is shared
 
 RAM Config Notes:
 block 0 tests all 3 rows of dram
@@ -546,6 +787,7 @@ N/A
 
 Mame driver:
 https://github.com/mamedev/mame/blob/master/src/mame/midway/williams.cpp
+
 
 
 
