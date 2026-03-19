@@ -1,0 +1,9 @@
+
+[SEQUENCE]
+Write	E000	70	Tank left
+Write	E001	09	Tank facing up
+Write	E002	80	Tank 80 down
+Compare	E000	70	
+Compare	E001	09	
+Compare	E002	80	
+
