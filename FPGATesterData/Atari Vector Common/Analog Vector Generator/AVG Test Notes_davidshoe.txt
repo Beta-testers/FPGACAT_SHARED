@@ -1,0 +1,45 @@
+[VG Reset]
+
+[VG Center]
+8tu1 89.375
+Tempest TU3 90.225
+[VG Halt Test]
+tu1 2.175
+Tempest TU3  2.2
+[VG DrawShort from Ram]
+tu1 177.9
+Tempest TU3 179.6~
+[VG Draw from RAM]
+tu1 1172.8
+Tempest TU3 1183.8~
+[VG Draw Single Short Vec frm Ram]
+tu1 26.6~
+Tempest TU3 26.875 @ 15x15
+[VG DrawShort from Ram BIG]
+tu1 17575
+Tempest TU3 17740.1 @ 100
+[VG Draw Single Long Vec]
+tu1 91.35
+Tempest TU3  92.2~ @ 64x64
+[VG JMP test RAM]
+tu1 358.9
+Tempest TU3 363.3~
+[VG JSR to address]
+
+[VG JMP only no draw]
+tu1 200.35
+Tempest TU3 202.25 @ 100
+[Set Scale]
+tu1 6.8~
+Tempest TU3 6.8~
+[JSR Test]
+963.4~
+Tempest TU3 972.4~ @ nest 3
+[Run from File]
+
+[Set color/intensity]
+
+[VGGO only]
+
+[Run from Trace Setup]
+
