@@ -1,0 +1,29 @@
+[SEQUENCE]
+Comment	0000	00	PHASE 1: Initialization-Show zero on LED
+Write	C80F	30	Access DDRB
+Write	C80E	FF	Set Port B to Outputs
+Write	C80F	34	Access Port B Data (CB2 Low)
+Write	C80D	30	Access DDRA
+Write	C80C	FF	Set Port A to Outputs
+Write	C80D	34	Access Port A Data
+Comment	0000	00	PHASE 2: Sound Sequence (Forced PB6/7 Low)
+Comment	0000	00	Molex P2 (PB1 Low)
+Write	C80E	3D	0011 1101 (Sound P2, PB6/7 Low)
+Delay_ms	03E8	00	wait 1000 ms
+Comment	0000	00	Molex P3 (PB0 Low)
+Write	C80E	3E	0011 1110 (Sound P3, PB6/7 Low)
+Delay_ms	03E8	00	wait 1000 ms
+Comment	0000	00	Molex P4 (PB3 Low)
+Write	C80E	37	0011 0111 (Sound P4, PB6/7 Low)
+Delay_ms	03E8	00	wait 1000 ms
+Comment	0000	00	Molex P5 (PB2 Low)
+Write	C80E	3B	0011 1011 (Sound P5, PB6/7 Low)
+Delay_ms	03E8	00	wait 1000 ms
+Comment	0000	00	Molex P6 (PB5 Low)
+Write	C80E	1F	0001 1111 (Sound P6, PB6/7 Low)
+Delay_ms	03E8	00	wait 1000 ms
+Comment	0000	00	Molex P7 (PB4 Low)
+Write	C80E	2F	0010 1111 (Sound P7, PB6/7 Low)
+Delay_ms	03E8	00	wait 1000 ms
+Comment	0000	00	PHASE 3: Reset
+Write	C80E	3F	All Sound High, PB6/7 Low
