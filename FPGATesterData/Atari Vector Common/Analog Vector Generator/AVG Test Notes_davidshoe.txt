@@ -4,48 +4,106 @@
 tu1 89.375
 tu2 89.45
 Tempest TU3 90.225
+MH DOK 135.?
+MH SPM 135.?
+
+On MH DOK (known good) 8mhz clock, confirmed with SPM board after fixing short in node 7k:5 
+Chain times start at 0.125us and go up doubling
+0.25
+0.525
+1.025
+2.025
+4.025
+8.025
+16.025
+32
+64
+128.4
+128.525
+128.65
+128.775
+128.9
+128.925
 [VG Halt Test]
 tu1 2.175
 tu2 2.175
 Tempest TU3  2.2
+MH DOK 3.1-4
+mh spm 3.1-4
 [VG DrawShort from Ram]
+Up and right from center
+
 tu1 177.9
 tu2 178.05
 Tempest TU3 179.6~
+MH DOK ~270
+mh spm 269.x
 [VG Draw from RAM]
+Should be centered on screen
+
 tu1 1172.8
 tu2 1005.92
 Tempest TU3 1183.8~
+MH DOK 1775.x
+mh spm 1775.x
 [VG Draw Single Short Vec frm Ram]
+Up & right from center
+
 tu1 26.6~
 tu2 26.625
 Tempest TU3 26.875 @ 15x15
+MH DOK 40 @ 15x15
+MH SPM 40.x @ 15x15
 [VG DrawShort from Ram BIG]
+Up and right from center
+
 tu1 17575
 tu2 17590
 Tempest TU3 17740.1 @ 100
+MH DOK 26606 @ 100
+MH SPM 26599.x @ 100
+
+MH DOK 77682.x @ 292
+MH SPM 77662.x @ 292
+
+More than 292 results in "shadow copies starting from top right of the test image and moving up then left about twice the size of the test.
 [VG Draw Single Long Vec]
+Up & right from center
+
 tu1 91.35
 tu2 91.45
 Tempest TU3  92.2~ @ 64x64
+MH DOK 138.x @ 64x64
+MH SPM 138.x @ 64x64
 [VG JMP test RAM]
+Stack up and right from center
+
 tu1 358.9
 tu2 359.225
 Tempest TU3 363.3~
+MH DOK 543.x
+MH SPM 543.x
 [VG JSR to address]
 
 [VG JMP only no draw]
 tu1 200.35
 tu2 200.5
 Tempest TU3 202.25 @ 100
+MH DOK 303.x
+mh spm 303.x
 [Set Scale]
 tu1 6.8~
 tu2 6.8
 Tempest TU3 6.8~
+MH DOK 10-11
+mh spm 10-11
 [JSR Test]
+Centered and right from center 6 "letters 0v666v0?" @ nest 3
 tu1 963.4~
 tu2 964.25
 Tempest TU3 972.4~ @ nest 3
+
+spm 1458 @ nest 3
 [Run from File]
 
 [Set color/intensity]
